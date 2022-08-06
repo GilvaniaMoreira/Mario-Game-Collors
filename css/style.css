@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #c682ee;
+    background-color: #cf6940;
 }
 
 header#main-header {
@@ -40,7 +40,7 @@ header#main-header {
     justify-content: center;
 }
 
-#game-score img {
+div#game-score img {
     margin-right: 15px;
 }
 
@@ -71,7 +71,7 @@ section#body div#left {
 
 }
 
-section#body div#left  div#actual-color {
+section#body div#left div#actual-color {
     margin-top: 10px;
     height: 200px;
     width: 200px;
@@ -86,7 +86,7 @@ section#body div#left button#btn-responder {
 
     background-color: transparent;
     border: 3px solid white;
-    border-radius: 7px;
+    border-radius: 8px;
 
     font-size: 25px;
     font-weight: bold;
@@ -94,7 +94,7 @@ section#body div#left button#btn-responder {
     padding: 15px 45px;
 }
 
-div#container footer#rodape {
+div#container footer#baseboard {
     background-color: rgb(84, 85, 83);
     position: fixed;
     bottom: 0px;
@@ -108,9 +108,9 @@ div#container footer#rodape {
 
 }
 
- footer p#rodape_txt {
+ footer p#baseboard_txt {
     color: white;
-    margin-left: 60px;
+    margin-right: 60px;
 
     
 }
@@ -119,5 +119,5 @@ footer img#logo {
     width: 40px;
     height: 40px;
     border-radius: 12px;
-    margin-right: 60px;    
+    margin-left: 60px;    
 }
